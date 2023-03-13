@@ -203,7 +203,6 @@ while winner != True:
                 print(' Dealers Hand ')
                 for x in dealer.hand:
                     print(dealer.hand[x])
-                print(dealer.cards)
             else:
                 dealer.hit()
                 x = dealer.check()
